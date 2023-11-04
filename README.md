@@ -12,28 +12,28 @@ erDiagram
     PRODUCT ||--o{ ORDER_DETAILS : included_in
 
     CUSTOMER {
-        int id PK
-        varchar name
+        int customer_id PK
+        varchar customer_name
         varchar contact
         varchar email
     }
 
     CATEGORY {
-        int id PK
-        varchar name
+        int category_id PK
+        varchar category_name
     }
 
     PRODUCT {
-        int id PK
-        varchar name
+        int product_id PK
+        varchar product_name
         decimal price
         int category_id FK
     }
 
     ORDER {
-        int id PK
-        int customer_id FK
-        date date
+        int order_id PK
+        int category_id FK
+        date order_date
         decimal total_amount
     }
 
