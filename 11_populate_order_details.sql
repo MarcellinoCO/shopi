@@ -1,3 +1,5 @@
+USE shopi;
+
 INSERT INTO
     order_details (order_id, product_id, quantity)
 VALUES

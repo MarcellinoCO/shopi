@@ -1,3 +1,5 @@
+USE shopi;
+
 INSERT INTO
     products (product_name, price, category_id)
 VALUES

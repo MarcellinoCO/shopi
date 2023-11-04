@@ -1,3 +1,5 @@
+USE shopi;
+
 INSERT INTO
     customers (customer_name, contact, email)
 values

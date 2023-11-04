@@ -1,4 +1,4 @@
-USE online_store;
+USE shopi;
 
 CREATE TABLE
     IF NOT EXISTS orders (
