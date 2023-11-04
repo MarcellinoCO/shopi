@@ -1,9 +1,6 @@
 USE shopi;
-
-INSERT INTO
-    orders (customer_id, order_date, total_amount)
-VALUES
-    (1, '2023-02-17', 53.02),
+INSERT INTO orders (customer_id, order_date, total_amount)
+VALUES (1, '2023-02-17', 53.02),
     (4, '2023-08-12', 15.3),
     (2, '2023-03-29', 87.23),
     (8, '2022-12-25', 13.58),

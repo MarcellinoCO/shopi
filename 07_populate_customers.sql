@@ -1,9 +1,6 @@
 USE shopi;
-
-INSERT INTO
-    customers (customer_name, contact, email)
-values
-    (
+INSERT INTO customers (customer_name, contact, email)
+values (
         'Marsha Casterot',
         '397-243-3835',
         'mcasterot0@vinaora.com'
@@ -13,11 +10,7 @@ values
         '490-964-4835',
         'ystannas1@123-reg.co.uk'
     ),
-    (
-        'Corbet Bras',
-        '350-281-0713',
-        'cbras2@tripod.com'
-    ),
+    ('Corbet Bras', '350-281-0713', 'cbras2@tripod.com'),
     (
         'Sianna Agates',
         '985-180-0881',

@@ -1,9 +1,6 @@
 USE shopi;
-
-INSERT INTO
-    products (product_name, price, category_id)
-VALUES
-    ('Chilli Paste, Ginger Garlic', 35.65, 3),
+INSERT INTO products (product_name, price, category_id)
+VALUES ('Chilli Paste, Ginger Garlic', 35.65, 3),
     ('Calaloo', 31.36, 1),
     ('Pectin', 6.5, 1),
     ('Aromat Spice / Seasoning', 12.75, 8),

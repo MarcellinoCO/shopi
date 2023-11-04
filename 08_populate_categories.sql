@@ -1,9 +1,6 @@
 USE shopi;
-
-INSERT INTO
-    categories (category_name)
-VALUES
-    ('Music'),
+INSERT INTO categories (category_name)
+VALUES ('Music'),
     ('Sports'),
     ('Grocery'),
     ('Home'),

@@ -1,9 +1,6 @@
 USE shopi;
-
-INSERT INTO
-    order_details (order_id, product_id, quantity)
-VALUES
-    (1, 20, 5),
+INSERT INTO order_details (order_id, product_id, quantity)
+VALUES (1, 20, 5),
     (2, 19, 9),
     (3, 14, 9),
     (4, 4, 3),
